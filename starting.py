@@ -47,7 +47,7 @@ st.subheader('Slider')
 slider_value = st.slider('Slide to select a value', 0, 100, 50)
 st.write('You selected:', slider_value)
 
-# Date Input
+# Date Input Important 
 st.subheader('Date Input')
 date_value = st.date_input('Select a date')
 st.write('You selected:', date_value)
